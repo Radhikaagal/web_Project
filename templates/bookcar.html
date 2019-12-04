@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Book A Car</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="/static/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <!-- Custom CSS -->
+    <link href="static/css/style.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+   
+  .out{
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: 
+  }
+  .in{
+    display: inline-block;
+     margin-top: 15rem;
+  }
+  .left{
+    float:left;
+    width:30%;
+    margin:10px;
+    margin-left: 5rem;
+  }
+  .right{
+    float:left;
+    margin:10px;
+    width:30%;
+    margin-right: 5rem;
+  }
+  .center{
+    margin:10px;
+    float:left;
+    width:30%;
+  }
+  .masthead {
+  min-height: 20rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+
+
+ /* background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");*/
+  /*background-image: linear-gradient(90deg, rgba(255,255,255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("static/car.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover*/;
+}
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+  }
+  .masthead h1 {
+    font-size: 5.5rem;
+  }
+}
+  </style>
+    
+
+  </head>
+
+  <body id="page-top" style="background-image: linear-gradient(90deg, rgba(255,255,255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),url('../static/bgcar.jpg'); background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover">
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <h3><a class="js-scroll-trigger" href="#page-top">Categories</a></h3>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#sedan">Sedan</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#suv">SUVs</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#eco">Eco</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+     <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+
+        <h1 style="color:white">Find Your Car</h1>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#sedan">Sedan</a>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#suv">SUVs</a>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#eco">ECO</a>
+      </div>
+      
+    </header>
+
+    <!--Sedan-->
+    <section class="content-section text-center" id="sedan">
+      <div class="out">
+    <div class="in">
+      <h1>SEDAN</h1>
+      <div class="card left">
+          <img src="../static/cars_i40.jpg" class="card-img-top"  alt="car">
+          <div class="card-body">
+            <h3 class="card-title">i40</h3>
+            <p class="card-text"><a href="https://www.hyundai.com/worldwide/en/cars/i40/highlights">Find More</a></p>
+            <a href="#addCustomer" class ="edit" data-toggle="modal">
+          <button class="btn btn-primary btn-xl">BOOK NOW!</button>
+        </a>
+        </div>
+      </div>
+
+
+      <div class="card center" >
+          <img src="../static/cars_azera.jpg" class="card-img-top"  alt="car">
+          <div class="card-body">
+            <h3 class="card-title">Azera</h3>
+            <p class="card-text"><a href="https://www.hyundai.com/worldwide/en/cars/azera/highlights">Find More</a></p>
+            <a href="#addCustomer" class ="edit" data-toggle="modal">
+          <button class="btn btn-primary btn-xl">BOOK NOW!</button>
+        </a>
+          </div>
+      </div>
+
+
+      <div class="card right" >
+          <img src="../static/cars_sonata.jpg" class="card-img-top"  alt="car">
+          <div class="card-body">
+            <h3 class="card-title">Sonata</h3>
+            <p class="card-text"><a href="https://www.hyundai.com/worldwide/en/cars/sonata-2019/highlights">Find More</a></p>
+           <a href="#addCustomer" class ="edit" data-toggle="modal">
+          <button class="btn btn-primary btn-xl">BOOK NOW!</button>
+        </a>
+          </div>
+      </div>
+    </div>
+  </div>
+    </section>
+
+    <!-- Suv -->
+    <section class="content-section text-center" id="suv">
+        <div class="out">
+    <div class="in">
+      <h1>SUVs</h1>
+      <div class="card left">
+          <img src="../static/palisade.jpg" class="card-img-top"  alt="car">
+          <div class="card-body">
+            <h3 class="card-title">Palisade</h3>
+            <p class="card-text"><a href="https://www.hyundai.com/worldwide/en/suv/palisade/highlights">Find More</a></p>
+             <a href="#addCustomer" class ="edit" data-toggle="modal">
+          <button class="btn btn-primary btn-xl">BOOK NOW!</button>
+        </a>
+        </div>
+      </div>
+
+
+      <div class="card center" >
+          <img src="../static/tucson.jpg" class="card-img-top"  alt="car">
+          <div class="card-body">
+            <h3 class="card-title">Tucson</h3>
+            <p class="card-text"><a href="https://www.hyundai.com/worldwide/en/suv/tucson/highlights">Find More</a></p>
+             <a href="#addCustomer" class ="edit" data-toggle="modal">
+          <button class="btn btn-primary btn-xl">BOOK NOW!</button>
+        </a>
+          </div>
+      </div>
+
+
+      <div class="card right" >
+          <img src="../static/santafe.jpg" class="card-img-top"  alt="car">
+          <div class="card-body">
+            <h3 class="card-title">Santa-fe</h3>
+            <p class="card-text"><a href="https://www.hyundai.com/worldwide/en/suv/santa-fe/highlights">Find More</a></p>
+            <a href="#addCustomer" class ="edit" data-toggle="modal">
+          <button class="btn btn-primary btn-xl">BOOK NOW!</button>
+        </a>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Eco -->
+    <section class="content-section text-center" id="eco">
+      <div class="out">
+    <div class="in">
+      <h1>ECO</h1>
+      <div class="card left">
+          <img src="../static/konaelectric.jpg" class="card-img-top"  alt="car">
+          <div class="card-body">
+            <h3 class="card-title">KONAElectric</h3>
+            <p class="card-text"><a href="https://www.hyundai.com/worldwide/en/eco/kona-electric/highlights">Find More</a></p>
+            <a href="#addCustomer" class ="edit" data-toggle="modal">
+          <button class="btn btn-primary btn-xl">BOOK NOW!</button>
+        </a>
+        </div>
+      </div>
+
+
+      <div class="card center" >
+          <img src="../static/ix35.jpg" class="card-img-top"  alt="car">
+          <div class="card-body">
+            <h3 class="card-title">ix35 Fuel Cell </h3>
+            <p class="card-text"><a href="https://www.hyundai.com/worldwide/en/eco/ix35-fuelcell/highlights">Find More</a></p>
+             <a href="#addCustomer" class ="edit" data-toggle="modal">
+          <button class="btn btn-primary btn-xl">BOOK NOW!</button>
+        </a>
+          </div>
+      </div>
+
+
+      <div class="card right">
+          <img src="../static/nexo.jpg" class="card-img-top"  alt="car">
+          <div class="card-body">
+            <h3 class="card-title">Nexo</h3>
+            <p class="card-text"><a href="https://www.hyundai.com/worldwide/en/eco/nexo/because-of-you">Find More</a></p>
+             <a href="#addCustomer" class ="edit" data-toggle="modal">
+          <button class="btn btn-primary btn-xl">BOOK NOW!</button>
+        </a>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div id="addCustomer" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form method="POST">
+          <div class="modal-header">            
+            <h4 class="modal-title">Add Customer Details</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label>VEHICLE SELECTED</label>
+            <select name="vehicle_id">
+              <option value="V01">i40</option>
+              <option value="V02">Azera</option>
+              <option value="V03">Sonata</option>
+              <option value="V04">Palisade</option>
+              <option value="V05">Tucson</option>
+              <option value="V06">Santa-fe</option>
+              <option value="V07">KONA Electric</option>
+              <option value="V08">ix35</option>
+              <option value="V09">Nexo</option>
+            </select>
+            </div>            
+            <div class="form-group">
+              <label>NAME</label>
+              <input name='cust_name' type="text" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label>DOB(yyyy-mm-dd)</label>
+              <input name='dob' type="text" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label>PHONE</label>
+              <input name='phone' type="text" pattern="[789][0-9]{9}" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label>EMAIL</label>
+              <input name='email' type="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label>ADDRESS</label>
+              <textarea name='address' class="form-control" required></textarea>
+            </div>
+            <div class="form-group">
+              <label>AADHAR</label>
+              <input name='aadhar' type= "text" pattern="[23456789][0-9]{11}" class="form-control" required>
+            </div>        
+          </div>
+          <div class="modal-footer">
+            <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+            <input type="submit" class="btn btn-info" value="Save">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+    
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{url_for('static',filename='vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{url_for('static',filename='vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{{url_for('static',filename='vendor/jquery-easing/jquery.easing.min.js')}}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{{url_for('static',filename='js/stylish-portfolio.min.js')}}"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+</html>
